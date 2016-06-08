@@ -1,0 +1,20 @@
+/* ***footer*** */
+.all-caps {
+    text-transform: uppercase;
+}
+.site-foot {
+    height: 15vh;
+    text-align: center;
+    color: #c2c2c2;
+    @extend .font;
+    font-size: 0.9rem;
+    padding: 0;
+    @include tablet {
+        padding-top: 30px;
+    }
+    @include desktop {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+}
